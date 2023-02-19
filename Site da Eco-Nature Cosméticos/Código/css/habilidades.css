@@ -1,0 +1,38 @@
+main {
+    width: 960px;
+    margin: 5px auto 48px;
+}
+
+.habilidades li {
+	display: inline-block;
+	text-align: center;
+	width: 300px;
+    height: 335px;
+	vertical-align: top;
+    padding: 0px;
+	border: 4px solid #25A24A;
+	border-radius: 32px;
+	background-color: #F6F6E9;
+	transition: 0.8s all cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.habilidades li {
+    margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.habilidades li img {
+	border-radius: 32px;
+    width: 250px;
+}
+
+.habilidades li:hover {
+	border-color: #12CD51;
+	background-color: #12CD51;
+	transform: scale(1.1);
+}
+
+.habilidades-descricao {
+	font-size: 20px;
+}
+
